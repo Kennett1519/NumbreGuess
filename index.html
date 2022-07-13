@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Number Guessing</title>
+        <link rel="stylesheet" href="/style.css" />
+    </head>
+    <body>
+        <main>
+            <div class="bienvenida">
+                <div class="container">
+                    <img
+                        class="logo-app"
+                        src="/interrogation1.png"
+                        alt="logoApp"
+                    />
+
+                    <form class="form-config-app" id="form-bienvenida">
+                        <label id="lbl-limite" class="lbl-limite" for="limite"
+                            >Ingrese el límite (de 0 a ...):</label
+                        >
+                        <input
+                            type="text"
+                            name="limite"
+                            id="limite"
+                            onfocus="hidePrograma();"
+                            placeholder="Límite"
+                        />
+                        <label class="lbl-intentos" for="intentos"
+                            >Ingresa el número de intentos:</label
+                        >
+                        <input
+                            type="text"
+                            name="intentos"
+                            id="intentos"
+                            placeholder="Intentos"
+                        />
+                        <button
+                            class="btn-aceptar"
+                            type="submit"
+                            id="btn-aceptar"
+                        >
+                            Aceptar
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="programa" id="programa">
+                <div class="container">
+                    <form class="form-logica-app" id="form-logica">
+                        <label id="lbl-principal">
+                            Intenta adivinar un número entre 0 y
+                        </label>
+                        <label id="lbl-intento">Intento Número: </label>
+                        <label id="indicador">-<br />-</label>
+                        <input
+                            type="text"
+                            name="ingresado"
+                            id="ingresado"
+                            placeholder="Ingresa un número entre 0 y "
+                        />
+                        <button class="btn-ok" type="submit" id="btn-ok">
+                            OK
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </main>
+
+        <script src="App.js"></script>
+    </body>
+</html>

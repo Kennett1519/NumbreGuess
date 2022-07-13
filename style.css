@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+body {
+    background-color: #000027;
+}
+
+.bienvenida {
+    background-color: #725919;
+    border-radius: 15px;
+    position: relative;
+    display: block;
+    top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20rem;
+    height: 16rem;
+}
+
+.logo-app {
+    position: relative;
+    top: 1.5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 3.5rem;
+    width: 3.5rem;
+}
+
+.form-config-app {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 2rem;
+    height: 6rem;
+    padding: 0.5rem;
+    color: #F0F2F4;
+}
+
+input {
+    font-size: 0.9rem;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0;
+    border-radius: 10px;
+    padding: 5px 8px;
+    color: #000027;
+    background-color: #F0F2F4;
+}
+
+input::placeholder {
+    color: #0000278f;
+}
+
+label {
+    width: 80%;
+    padding-bottom: 2px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lbl-intentos {
+    padding-top: 10px
+}
+
+button {
+    height: 1.5rem;
+    width: 30%;
+    margin-top: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0;
+    border-radius: 10px;
+    padding: 2px 8px;
+    color: #000027;
+    background-color: #F0F2F4;
+}
+
+#print {
+    color: #F0F2F4;
+}
+
+.programa {
+    background-color: #725919;
+    border-radius: 15px;
+    position: relative;
+    display: none;
+    top: 4rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20rem;
+    height: 30rem;
+}
+
+#lbl-principal {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.form-logica-app {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 3rem;
+    padding: 0.5rem;
+    color: #F0F2F4;
+}
+
+#lbl-intento {
+    font-size: 1.2rem;
+}
+
+#indicador {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    font-size: 1.5rem;
+}
+
+.btn-ok {
+    margin-top: 2rem;
+}
+
+.desactivado {
+    opacity: 50%;
+}
+
